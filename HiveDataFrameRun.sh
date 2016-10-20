@@ -1,0 +1,1 @@
+HADOOP_USER_NAME=devnet spark-submit --master yarn --deploy-mode cluster --class HiveDataFrame /projects/worldcount/target/scala-2.11/hello_2.11-1.0.jar localhost 9999
